@@ -1,0 +1,31 @@
+# Agent-Skills/.gitignore
+
+
+
+# Данные и логи
+/data/
+*.log
+*.db
+*.db-journal
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Файлы конфигурации
+.env
+.env.*
+*.env
+koyeb.yaml
+render.yaml
+
+
+# Project specific
+*.log
+temp/
+
+
+# OS
+.DS_Store
+Thumbs.db
